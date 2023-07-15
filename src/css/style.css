@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6eff6;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    width: 635px;
+    height: 475px;
+}
+
+section.info1 {
+    width: 635px;
+    height: 217px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.info1 h1 {
+    color: #2ab2af;
+    margin-bottom: 25px;
+}
+
+.info1 h2 {
+    color: #c0df34;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.info1 p {
+    color: #98a6bd;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+section.info-dupla {
+    width: 635px;
+    height: 258px;
+    display: flex;
+}
+
+.info-dupla div {
+    padding: 40px;
+}
+
+.info-dupla div h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.info-dupla div p {
+    font-size: 8px;
+}
+
+section div.info2 {
+    width: 318px;
+    height: 258px;
+    background-color: #2bb3b1;
+    color: #e5eff5;
+    border-bottom-left-radius: 10px;
+}
+
+div.valor {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+span.preco {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span.por-mes {
+    font-size: 8px;
+    opacity: 0.6;
+}
+
+.info2 button {
+    background-color: #c0df34;
+    color: #e5eff5;
+    border: none;
+    width: 237px;
+    height: 48px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+section div.info3 {
+    width: 318px;
+    height: 258px;
+    background-color: #4abebd;
+    color: #e5eff5;
+    border-bottom-right-radius: 10px;
+}
+
+section div.info3 p {
+    font-size: 8px;
+    opacity: 0.6;
+}

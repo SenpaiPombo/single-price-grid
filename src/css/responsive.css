@@ -1,0 +1,33 @@
+@media (max-width: 450px){
+    main{
+        max-width: 311px;
+        height: 730px;
+        flex-direction: column;
+    }
+
+    .container .info1{
+        max-width: 311px;
+        height: 275px;
+        padding: 30px;
+    }
+
+    section.info-dupla{
+        flex-direction: column;   
+    }
+
+    .info-dupla .info2{
+        width: 311px;
+        height: 230px;
+        padding: 30px;
+        border-bottom-left-radius: 0;
+    }
+
+    .info-dupla .info3{
+        width: 311px;
+        height: 230px;
+        border-bottom-left-radius: 10px;
+        padding-top: 30px;
+    }
+
+
+}
